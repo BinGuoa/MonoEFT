@@ -105,8 +105,8 @@ namespace eft
 				CanStartNewSearchOperation_hk.Init( canStartNewSearchOperationMethod, typeof(CanStartNewSearchOperation).GetMethod( "CanStartNewSearchOperation_hook" ) );
 				CanStartNewSearchOperation_hk.Emplace(  );
 
-				    //SetRoundIntoWeapon AddHit ToWeaponMalfunctionState //UpdateProfile //ForceLogout //ShowScreen 
-					// uE672 uE001 | OnEnemyKill | \uE65E LogDamage | AddDoorExperience | \uE61F SetCharacterMovementSpeed | \uE4EC MeetsRequirements
+				//SetRoundIntoWeapon AddHit ToWeaponMalfunctionState //UpdateProfile //ForceLogout //ShowScreen 
+				//uE672 uE001 | OnEnemyKill | \uE65E LogDamage | AddDoorExperience | \uE61F SetCharacterMovementSpeed | \uE4EC MeetsRequirements
 				is_hooked = false;
 			}			
         	 }			
